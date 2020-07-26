@@ -1,0 +1,41 @@
+.name_style{
+    margin-left: 20px;
+}
+
+.name_style_index{
+    text-align: center;
+}
+
+.table-row-data:hover {background-color: #f5f5f5;
+    cursor: pointer;
+  }
+
+.cross{
+    float: right;
+    border: none;
+    background: #ffff;
+    cursor: pointer;
+}
+
+.button-wrapper
+{
+    width : 40%;
+    margin:auto;
+    .open,.close{
+        height: 50px;
+        background-color: rgb(129, 153, 233);
+        color: white;
+        margin: 10px 20px 10px 20px;
+        border-radius:10px;
+        font-size: 16px;
+        &:hover{
+            color:black;
+            background-color: #ffff;
+        }  
+    }
+
+    .open{
+        margin : 10px 83px;
+    }
+   
+}
